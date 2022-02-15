@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bs-secondary: #6c757d;
+  --bs-font-primary: font-family: "Montserrat", sans-serif;
+  --bs-font-secondary: "Nunito Sans", sans-serif;
+  --bs-yellow: #09ec3a;
+  --bg-secondary: #f5f5f5;
+  --bg-primary:#10c9c3;
+  --bg-footer:#141414;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+}
+h2 {
+  font-weight: 500;
+  color: black;
+}
+h6 {
+  font-weight: 900;
+  color: black;
+}
+/* -------------Header Section Start------------- */
+.nav-link {
+  color: #191919 !important;
+}
+.active {
+  color: #10c9c3 !important;
+}
+.nav-link:hover {
+  color: #10c9c3 !important;
+}
+.Header-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.Header-section button i {
+  color: #10c9c3;
+  font-size: 2rem;
+}
+.banner-section {
+  width: 100%;
+  height: 100vh;
+  background-color: #e9e9e9;
+  background-image: url(../images/hero23.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.btn-pri {
+  background-color: #10c9c3;
+  border: none;
+}
+.btn-pri:hover {
+  background-color: none;
+}
+/* -------------About Section Start------------- */
+.about_section {
+  height: 419px;
+}
+.about_section h2 {
+  margin-top: 6rem;
+  margin-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.about_section p {
+  font-family: "Nunito Sans", sans-serif;
+  color: #787878;
+  margin-bottom: 0.8rem;
+}
+/* -------------Work Section Start------------- */
+.work_section {
+  padding-bottom: 1rem;
+}
+.right h2 {
+  padding-bottom: 1rem;
+}
+
+.right {
+  padding-top: 2rem;
+  padding: 5rem 0;
+
+  background-color: #f8f9f9;
+}
+.d-1 {
+  margin-bottom: 2rem;
+}
+.pac-1 {
+  width: 80%;
+  height: 2px;
+  background-color: #787878;
+  position: relative;
+}
+.pac-1::after {
+  content: "";
+  width: 73%;
+  height: 2px;
+  position: absolute;
+  background-color: #10c9c3;
+  z-index: 5;
+}
+.pac-2 {
+  width: 80%;
+  height: 2px;
+  background-color: #787878;
+  position: relative;
+}
+
+.pac-2::after {
+  content: "";
+  width: 90%;
+  height: 2px;
+  position: absolute;
+  background-color: #10c9c3;
+  z-index: 5;
+}
+.pac-3 {
+  width: 80%;
+  height: 2px;
+  background-color: #787878;
+  position: relative;
+}
+
+.pac-3::after {
+  content: "";
+  width: 60%;
+  height: 2px;
+  position: absolute;
+  background-color: #10c9c3;
+  z-index: 5;
+}
+.left {
+  background-color: #e9e9e9;
+}
+.work-img {
+  height: 30rem;
+  width: 100%;
+}
+/* -------------Number Section Start------------- */
+.number-section {
+  background-color: #10c9c3;
+  padding: 3.45rem 0;
+}
+.number-section img {
+  height: 4rem;
+  margin-right: 1rem;
+}
+.number-section span {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.number-section h4 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* -------------projects Section Start------------- */
+.projects {
+  width: 100%;
+  height: 15rem;
+}
+.projects img {
+  width: 100%;
+  height: 15rem;
+}
+.projects img:hover {
+  transform: scale(1.2);
+  transition: 2s all ease;
+}
+.grey-bg {
+  background-color: #787878;
+}
+.black-bg {
+  background-color: black;
+}
+.white-bg {
+  background-color: #dddddd;
+}
+.load-more {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+/* -------------progess Section Start------------- */
+.progess-section {
+  padding: 5rem 0;
+}
+.progess-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #191919;
+  padding-bottom: 2rem;
+}
+.progess-section p {
+  font-size: 1rem;
+  font-weight: var(--bs-font-secondary);
+  color: var(--bs-secondary);
+  padding-bottom: 2rem;
+}
+.progess-section .video {
+  width: 100%;
+  height: 35rem;
+  background-color: #e9e9e9;
+  position: relative;
+  z-index: 4;
+}
+.progess-section .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #ffff;
+  justify-content: center;
+  background-color: #10c9c3;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+}
+/* -------------services Section Start------------- */
+.services-section {
+  padding: 5rem 0;
+  background-color: var(--bg-secondary);
+}
+.services-section img{
+  height: 3.5rem;
+  padding-bottom: 1.5rem;
+
+}
+.services-section h2{
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: var(--bs-font-primary);
+  color: #191919;
+}
+.services-section p{
+  font-family: var(--bs-font-secondary);
+  color: var(--bs-secondary);
+  font-size: 1.2rem;
+
+}
+/* -------------Contract Section Start------------- */
+.testemonials-section{
+  height: 25rem;
+  background-color: var(--bg-primary);
+  
+}
+.testemonials-section h3{
+  color: #ffff;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.testemonials-section i{
+  color: #ffff;
+  background-color: #ffff;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 100%;
+}
+/* -------------Contract Section Start------------- */
+.brand{
+  padding: 5rem 0;
+}
+
+/* -------------Contract Section Start------------- */
+.contract-section{
+  background-color: var(--bg-secondary);
+  padding: 5rem 0;
+}
+.contract-section .btn-primary{
+  background-color: var(--bg-primary);
+  border: none;
+  color: #ffff;
+  text-transform: uppercase;
+}
+form .form-control{
+  border: transparent;
+  border: 0;
+  background-color: #ffff;
+}
+/* -------------footer Section Start------------- */
+footer{
+  padding: 5rem 0;
+  background-color: var(--bg-footer);
+  color:var(--bs-light);
+}
+.footer-brand h2{
+  color: var(--bs-light);
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.footer-brand p{
+  font-size: 0.8rem;
+}
+footer a{
+  text-decoration: none;
+  color: var(--bs-light);
+}
+/* -------------footer Section Start------------- */
